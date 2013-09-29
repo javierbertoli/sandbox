@@ -15,10 +15,10 @@ class {'bacula:
 * Install a specific version of bacula storage package
         
 ```puppet
-class { 'bacula':
-  manage_storage  => true,
-  version         => '1.0.1',
-}
+        class { 'bacula':
+          manage_storage  => true,
+          version         => '1.0.1',
+        }
 ```
                                             
 ```puppet
